@@ -1,0 +1,35 @@
+{
+	"name" : "fproject/workflowii",
+	"description" : "Workflow Engine for Yii 2 Framework",
+	"keywords" : [
+		"yii2",
+		"workflow",
+        "workflow engine"
+	],
+    "homepage": "https://github.com/fproject/workflowii",
+	"type" : "yii2-extension",
+	"license" : "Apache License 2.0",
+	"support" : {
+		"issues" : "https://github.com/fproject/workflowii/issues"
+	},
+    "authors": [
+      {
+        "name": "Bui Sy Nguyen",
+        "email": "nguyenbs@f-project.net",
+        "homepage": "http://f-project.net"
+      }
+    ],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.4.0",
+		"yiisoft/yii2" : "*"
+	},
+	"config" : {
+		"process-timeout" : 1800
+	},
+	"autoload" : {
+		"psr-4" : {
+          "fproject\\": "fproject/"
+		}
+	}
+}
