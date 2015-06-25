@@ -1,10 +1,10 @@
 {
-	"name" : "fproject/workflowii",
-	"description" : "Workflow Engine for Yii 2 Framework",
+	"name" : "fproject/yii2-migration-generator",
+	"description" : "Helper class library to generate Yii2 migration script from Database source",
 	"keywords" : [
 		"yii2",
-		"workflow",
-        "workflow engine"
+		"migration",
+        "generator"
 	],
     "homepage": "https://github.com/fproject/workflowii",
 	"type" : "yii2-extension",
